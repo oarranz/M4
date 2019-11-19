@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Comèdia">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="càntic" maxOccurs="3" minOccurs="3">
+          <xs:complexType >
+           <xs:sequence>
+            <xs:element name="lloc" maxOccurs="unbounded">
+              <xs:complexType>
+               <xs:sequence>
+                <xs:element name="nom" type="xs:string"/>
+                
+                  <xs:element name="condemnats" type="xs:string" minOccurs="0"/>
+                  <xs:element name="pecat" type="xs:string"/>
+                  <xs:element name="beat" type="xs:string"/>
+                
+                 
+                  <xs:element name="càstig" type="xs:string" minOccurs="0"/>
+                  <xs:element name="aparició"/>
+                
+                <xs:element name="entitat_angèlica" type="xs:string" minOccurs="0"/>
+                <xs:element name="cants">
+                  <xs:complexType>
+                    <xs:attribute name="número" type="xs:string" use="required"/>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="guia" type="xs:string" minOccurs="0"/>
+                <xs:element name="personatges" minOccurs="0">
+                 <xs:complexType>
+                   <xs:sequence>
+                     <xs:element name="personatge" type="xs:string" maxOccurs="unbounded"/>
+                   </xs:sequence>
+                 </xs:complexType>
+                </xs:element>
+               <xs:element name="indrets" minOccurs="0">
+                 <xs:complexType>
+                   <xs:sequence>
+                     <xs:element name="indret" type="xs:string" maxOccurs="unbounded"/>
+                   </xs:sequence>
+                 </xs:complexType>
+                </xs:element>
+                </xs:sequence>
+				
+                  <xs:attribute name="id" type="xs:ID" use="required"/>
+                                       
+              </xs:complexType>
+            </xs:element>
+            </xs:sequence>
+			
+              <xs:attribute name="nom" type="xs:string" use="required"/>
+                
+          </xs:complexType>
+            
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

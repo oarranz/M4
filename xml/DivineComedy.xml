@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Comèdia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="DivineComedy.xsd">
+  <càntic nom="Infern">
+    <lloc id="In1">
+      <nom>Selva</nom>
+      <cants número="I-II"/>
+      <guia>Virgili</guia>
+      <indrets>
+        <indret>Màntua</indret>
+        <indret>Roma</indret>
+        <indret>Troia</indret>
+      </indrets>
+    </lloc>
+    <lloc id="In2">
+      <nom>Vestíbul o preinfern</nom>
+      <condemnats>Indolents</condemnats>
+      <càstig>Ser persguit per vespes i tàvecs</càstig>
+      <cants número="III"/>
+      <guia>Virgili</guia>
+      <personatges>
+        <personatge>Caront</personatge>
+        <personatge>Ponci Pilat</personatge>
+        <personatge>Esaú</personatge>
+      </personatges>
+      <indrets>
+        <indret>Roma</indret>
+      </indrets>
+    </lloc>
+    <lloc id="In3">
+      <nom>Primer cercle o Limb</nom>      
+      <condemnats>No batejats</condemnats>
+      <càstig>No poder contemplar a Déu</càstig>
+      <cants número="IV"/>
+      <guia>Virgili</guia>
+      <personatges>
+        <personatge>Aristòtil</personatge>
+        <personatge>Plató</personatge>
+        <personatge>Sòcrates</personatge>
+        <personatge>Demòcrit</personatge>
+        <personatge>Diògenes</personatge>
+      </personatges>
+    </lloc>
+  </càntic>
+  <càntic nom="Purgatori">
+    <lloc id="Pu5">
+      <nom>Primera terrassa</nom>
+      <pecat>Supèrbia</pecat>
+      <càstig>Caminar carregat de pedres</càstig>
+      <cants número="X-XII"/>
+      <guia>Virgili</guia>
+      <personatges>
+        <personatge>Trajà</personatge>
+         <personatge>David</personatge>
+      </personatges>
+      <indrets>
+        <indret>París</indret>
+        <indret>Troia</indret>
+      </indrets>
+    </lloc>
+    <lloc id="Pu6">
+      <nom>Segona terrassa</nom>
+      <pecat>Enveja</pecat>
+      <càstig>Caminar cecs amb les parpelles cosides</càstig>
+      <cants número="XIII-XIV"/>
+      <guia>Virgili</guia>
+      <personatges>
+        <personatge>Orestes</personatge>
+        <personatge>Circe</personatge>
+        <personatge>Caïm</personatge>
+      </personatges>
+      <indrets>
+        <indret>Arno</indret>
+        <indret>Po</indret>
+      </indrets>
+    </lloc>
+    <lloc id="Pu11">
+      <nom>Setena terrassa</nom>
+      <pecat>Luxúria</pecat>
+      <càstig>Caminar pel foc</càstig>
+      <cants número="XXV-XXVII"/>
+      <guia>Virgili</guia>
+      <personatges>
+        <personatge>Averroïs</personatge>
+        <personatge>Píram</personatge>
+        <personatge>Tisbe</personatge>
+      </personatges>
+      <indrets>
+        <indret>Sodoma</indret>
+        <indret>Gomorra</indret>
+      </indrets>
+    </lloc>
+  </càntic>
+  <càntic nom="Paradís">
+    <lloc id="Pa6">
+      <nom>Sisè cel - Júpite</nom>
+      <beat>Ànimes justes</beat>
+      <aparició>Cantant i volant fent figures al cel</aparició>
+      <entitat_angèlica>Dominacions</entitat_angèlica>
+      <cants número="XVII-XX"/>
+      <guia>Beatriu</guia>
+      <personatges>
+        <personatge>Constantí</personatge>
+        <personatge>Rifeu</personatge>
+      </personatges>
+      <indrets>
+        <indret>Espanya</indret>
+        <indret>Sícíla</indret>
+        <indret>Venècia</indret>
+      </indrets>
+    </lloc>
+    <lloc id="Pa8">
+      <nom>Vuitè cel - Estrelles fixes</nom>
+      <beat>Ànimes triomfants</beat>
+      <aparició>Encesses amb un sol radiant</aparició>
+      <entitat_angèlica>Querubins</entitat_angèlica>
+      <cants número="XXIII-XXVII"/>
+      <guia>Beatriu</guia>
+      <personatges>
+        <personatge>Crist</personatge>
+        <personatge>MAre de Déu</personatge>
+        <personatge>Adam</personatge>
+      </personatges>
+      <indrets>
+        <indret>Babilònia</indret>
+        <indret>Galícia</indret>
+        <indret>Jerusalem</indret>
+        <indret></indret>
+      </indrets>
+    </lloc>
+    <lloc id="Pa10">
+      <nom>Empíreu</nom>
+      <beat>Tots els beats</beat>
+      <aparició>Rosa mística</aparició>
+      <cants número="XXX-XXXIII"/>
+      <personatges>
+        <personatge>Eva</personatge>
+        <personatge>Beatriu</personatge>
+        <personatge>Santíssima Trinitat</personatge>
+      </personatges>
+      <indrets>
+        <indret>Itàlia</indret>
+        <indret>Florència</indret>
+      </indrets>
+    </lloc>
+    </càntic>
+</Comèdia>
